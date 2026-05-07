@@ -44,7 +44,7 @@ export function Journey() {
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-gray-200 bg-gray-50 px-4 py-2 text-xs uppercase tracking-[0.24em] text-gray-400">
             Origem &amp; evolução
           </div>
-          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
+          <h2 className="font-['Outfit'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
             Partimos de um problema diferente.
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-base leading-8 text-gray-500">
@@ -106,7 +106,7 @@ export function Journey() {
           >
             <div className="mb-6">
               <div className="mb-2 text-[10px] font-mono uppercase tracking-[0.32em] text-gray-400">Ponto de partida</div>
-              <div className="font-['Syne'] text-2xl font-bold tracking-[-0.04em] text-gray-900">NutriNest</div>
+              <div className="font-['Outfit'] text-2xl font-bold tracking-[-0.04em] text-gray-900">NutriNest</div>
               <div className="mt-1 text-sm text-gray-400">smart fridge · IoT · hardware consumer</div>
             </div>
             <div className="space-y-3.5">
@@ -146,7 +146,7 @@ export function Journey() {
             <div className="pointer-events-none absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-transparent via-emerald-400 to-transparent" />
             <div className="mb-6">
               <div className="mb-2 text-[10px] font-mono uppercase tracking-[0.32em] text-emerald-600">Produto atual</div>
-              <div className="font-['Syne'] text-2xl font-bold tracking-[-0.04em] text-gray-900">VitaCodex</div>
+              <div className="font-['Outfit'] text-2xl font-bold tracking-[-0.04em] text-gray-900">VitaCodex</div>
               <div className="mt-1 text-sm text-emerald-600">API-first · genômica · plug-and-play</div>
             </div>
             <div className="space-y-3.5">

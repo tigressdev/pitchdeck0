@@ -82,7 +82,7 @@ export function Hero() {
 
           <motion.h1
             variants={itemVariants}
-            className="font-['Syne'] max-w-2xl text-5xl font-bold leading-[0.92] tracking-[-0.06em] text-gray-900 md:text-7xl"
+            className="font-['Outfit'] max-w-2xl text-5xl font-bold leading-[0.92] tracking-[-0.06em] text-gray-900 md:text-7xl"
           >
             Your body<br />runs in code.{' '}
             <span className="text-emerald-600">We help health systems read it.</span>
@@ -106,7 +106,7 @@ export function Hero() {
                 key={label}
                 className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm hover:border-emerald-200 hover:bg-emerald-50/50 transition-colors"
               >
-                <div className="font-['Syne'] text-2xl font-bold text-emerald-600">{value}</div>
+                <div className="font-['Outfit'] text-2xl font-bold text-emerald-600">{value}</div>
                 <div className="mt-1 text-xs uppercase tracking-[0.15em] text-gray-400">{label}</div>
               </div>
             ))}

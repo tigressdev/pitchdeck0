@@ -29,7 +29,7 @@ export function Footer() {
           </div>
 
           {/* Tagline — the emotional anchor from the script */}
-          <h2 className="font-['Syne'] max-w-3xl mx-auto text-5xl font-bold leading-[1.0] tracking-[-0.06em] text-white md:text-7xl mb-6">
+          <h2 className="font-['Outfit'] max-w-3xl mx-auto text-5xl font-bold leading-[1.0] tracking-[-0.06em] text-white md:text-7xl mb-6">
             Seu corpo<br />funciona em código.
             <br />
             <span className="text-emerald-400">Nós te ajudamos a ler.</span>
@@ -78,7 +78,7 @@ export function Footer() {
         {/* Footer bottom bar */}
         <div className="flex flex-col items-center justify-between gap-6 py-8 md:flex-row">
           <div>
-            <div className="font-['Syne'] text-xl font-bold tracking-[-0.05em] text-white">
+            <div className="font-['Outfit'] text-xl font-bold tracking-[-0.05em] text-white">
               vita<span className="text-emerald-400">codex</span>
             </div>
             <p className="mt-0.5 text-xs text-gray-600">Genomic intelligence layer · Pitch Final v0.2</p>

@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        syne: ['Syne', 'sans-serif'],
+        display: ['Outfit', 'system-ui', 'sans-serif'],
+        sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
       colors: {

@@ -27,7 +27,7 @@ export function Problema() {
             <span className="font-mono">01</span>
             Problema
           </div>
-          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl leading-[1.05]">
+          <h2 className="font-['Outfit'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl leading-[1.05]">
             O gargalo não é gerar dados genéticos.<br />
             <span className="text-emerald-600">É transformá-los em decisão clínica real.</span>
           </h2>
@@ -102,11 +102,11 @@ export function Problema() {
             </div>
             <div className="flex items-center gap-3 shrink-0">
               <div className="rounded-xl border border-emerald-200 bg-white px-5 py-3 text-center shadow-sm">
-                <div className="font-['Syne'] text-3xl font-bold text-emerald-600">5</div>
+                <div className="font-['Outfit'] text-3xl font-bold text-emerald-600">5</div>
                 <div className="mt-0.5 text-[10px] uppercase tracking-[0.18em] text-gray-400">entrevistas</div>
               </div>
               <div className="rounded-xl border border-emerald-200 bg-white px-5 py-3 text-center shadow-sm">
-                <div className="font-['Syne'] text-3xl font-bold text-emerald-600">3</div>
+                <div className="font-['Outfit'] text-3xl font-bold text-emerald-600">3</div>
                 <div className="mt-0.5 text-[10px] uppercase tracking-[0.18em] text-gray-400">segmentos</div>
               </div>
             </div>

@@ -33,7 +33,7 @@ export function Validacao() {
             <span className="font-mono">02</span>
             Pesquisa de validação com stakeholders
           </div>
-          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
+          <h2 className="font-['Outfit'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
             Entrevistamos todos os lados do ecossistema<br />
             <span className="text-emerald-600">antes de definir o produto final.</span>
           </h2>
@@ -120,7 +120,7 @@ export function Validacao() {
           transition={{ duration: 0.55, delay: 0.2 }}
         >
           <div className="flex items-start gap-4">
-            <span className="font-['Syne'] text-6xl leading-none text-emerald-400 select-none mt-[-0.3rem]">"</span>
+            <span className="font-['Outfit'] text-6xl leading-none text-emerald-400 select-none mt-[-0.3rem]">"</span>
             <div>
               <p className="text-lg leading-8 text-gray-700 italic">
                 Seria muito legal disponibilizar isso como API. Porque aí, independente de quem seja seu consumidor final — e isso você vai descobrir quando começar a oferecer — se for plug and play, fica bem mais fácil de integrar no sistema de saúde do jeito que ele já funciona hoje.

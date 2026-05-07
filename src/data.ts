@@ -143,8 +143,8 @@ export const PIPELINE_STEPS = [
 // ─── Market — used by Business ────────────────────────────────────────────────
 
 export const MARKET = [
-  { label: 'TAM', value: '$22B', desc: 'Genômica personalizada global' },
-  { label: 'SAM', value: '$4.2B', desc: 'Clinical decision support AI, LatAm' },
+  { label: 'TAM', value: '$35B', desc: 'Mercado global de genômica · CAGR ~18%/ano' },
+  { label: 'SAM', value: '$12B', desc: 'Health tech personalizada · adjacência de maior crescimento' },
   { label: 'SOM', value: '$80M', desc: 'Healthtechs e clínicas com genética, BR' },
 ];
 
@@ -152,28 +152,28 @@ export const MARKET = [
 
 export const ICPS = [
   {
-    icon: '🏥',
+    icon: 'clinic' as const,
     title: 'Clínicas & Nutricionistas',
     desc: 'Relatórios genéticos integrados ao prontuário, com linguagem clínica e ações acionáveis. Valida Clinical Sync.',
     accent: '#1D9E75',
     validated: true,
   },
   {
-    icon: '🛡️',
+    icon: 'shield' as const,
     title: 'Operadoras de Saúde',
     desc: 'BI de risco preventivo via perfil genético — redução de sinistros antes que virem custo. Valida segmento B2B.',
     accent: '#b846ff',
     validated: true,
   },
   {
-    icon: '🔌',
+    icon: 'plug' as const,
     title: 'EMRs / SaaS Healthtech',
     desc: 'API plug-and-play para sistemas de prontuário existentes. "Se for API bem documentada, integro em semanas."',
     accent: '#3f6df6',
     validated: true,
   },
   {
-    icon: '👤',
+    icon: 'user' as const,
     title: 'D2C Vitrine',
     desc: 'App direto ao consumidor como porta de entrada. Sustenta caixa no cenário realista e prova product-market fit.',
     accent: '#f28a22',

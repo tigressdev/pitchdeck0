@@ -4,7 +4,9 @@ import { TickerBar } from './components/TickerBar';
 import { Problema } from './components/Problema';
 import { Validacao } from './components/Validacao';
 import { TransformDemo } from './components/TransformDemo';
+import { TriadCycle } from './components/TriadCycle';
 import { HowItWorks } from './components/HowItWorks';
+import { Mercado } from './components/Mercado';
 import { Business } from './components/Business';
 import { Financeiro } from './components/Financeiro';
 import { Roadmap } from './components/Roadmap';
@@ -54,8 +56,14 @@ export function App() {
         <TransformDemo />
       </div>
 
+      {/* Produto · O ciclo Vita: DNA Explorer → Clinical Sync → Target */}
+      <TriadCycle />
+
       {/* Seção 4 do roteiro: Arquitetura + diferencial */}
       <HowItWorks />
+
+      {/* Mercado: análise competitiva + $35B + 14M+ orphans */}
+      <Mercado />
 
       {/* Seção 4 (final) do roteiro: 4 ICPs + modelo API */}
       <Business />

@@ -57,7 +57,7 @@ export function HowItWorks() {
             <span className="font-mono">04</span>
             Solução · Arquitetura técnica
           </div>
-          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
+          <h2 className="font-['Outfit'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
             Quatro camadas. Zero alucinação.<br />
             <span className="text-emerald-600">Do rsID bruto ao insight clínico.</span>
           </h2>
@@ -154,7 +154,7 @@ export function HowItWorks() {
               <div className="mb-3 text-xs font-mono uppercase tracking-[0.22em] text-emerald-600">
                 ⚡ Diferencial dificilmente copiável
               </div>
-              <h3 className="font-['Syne'] text-2xl font-bold tracking-[-0.03em] text-gray-900 mb-3">
+              <h3 className="font-['Outfit'] text-2xl font-bold tracking-[-0.03em] text-gray-900 mb-3">
                 "Esse cruzamento — DNA mais exames — é o que nenhum app de genética brasileiro faz hoje via API."
               </h3>
               <p className="text-sm leading-7 text-gray-600">

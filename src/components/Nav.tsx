@@ -34,7 +34,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6">
         {/* Brand */}
         <div className="flex items-center gap-3">
-          <div className="font-['Syne'] text-xl font-bold tracking-[-0.05em] text-gray-900 select-none">
+          <div className="font-['Outfit'] text-xl font-bold tracking-[-0.05em] text-gray-900 select-none">
             vita<span className="text-emerald-600">codex</span>
           </div>
           <span className="hidden sm:inline font-mono text-[9px] uppercase tracking-[0.18em] text-gray-400 border border-gray-200 rounded px-2 py-0.5">

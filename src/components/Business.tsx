@@ -2,6 +2,36 @@ import { useRef, useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { MARKET, ICPS } from '../data';
 
+const ICP_ICONS: Record<string, (color: string) => JSX.Element> = {
+  clinic: (c) => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={c} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+      <polyline points="9 22 9 12 15 12 15 22" />
+      <line x1="12" y1="8" x2="12" y2="11" />
+      <line x1="10.5" y1="9.5" x2="13.5" y2="9.5" />
+    </svg>
+  ),
+  shield: (c) => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={c} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      <polyline points="9 12 11 14 15 10" />
+    </svg>
+  ),
+  plug: (c) => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={c} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+      <polyline points="15 3 21 3 21 9" />
+      <line x1="10" y1="14" x2="21" y2="3" />
+    </svg>
+  ),
+  user: (c) => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke={c} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+      <circle cx="12" cy="7" r="4" />
+    </svg>
+  ),
+};
+
 function MarketCard({ item, index }: { item: (typeof MARKET)[0]; index: number }) {
   const accents = ['#1D9E75', '#3f6df6', '#b846ff'];
   const accent = accents[index];
@@ -21,7 +51,7 @@ function MarketCard({ item, index }: { item: (typeof MARKET)[0]; index: number }
       <div className="mb-2 font-mono text-xs font-semibold uppercase tracking-[0.3em]" style={{ color: accent }}>
         {item.label}
       </div>
-      <div className="font-['Syne'] text-5xl font-bold tracking-[-0.04em] text-gray-900 md:text-6xl">
+      <div className="font-['Outfit'] text-5xl font-bold tracking-[-0.04em] text-gray-900 md:text-6xl">
         {item.value}
       </div>
       <p className="mt-3 text-sm leading-7 text-gray-500">{item.desc}</p>
@@ -58,7 +88,7 @@ export function Business() {
             <span className="font-mono">05</span>
             Modelo de negócios
           </div>
-          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
+          <h2 className="font-['Outfit'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
             A interface encanta o usuário.<br />
             <span className="text-emerald-600">A API monetiza para todos os stakeholders.</span>
           </h2>
@@ -87,7 +117,7 @@ export function Business() {
               <div className="mb-3 text-xs uppercase tracking-[0.22em] text-emerald-600">
                 Modelo de receita · SaaS por paciente processado
               </div>
-              <h3 className="font-['Syne'] text-2xl font-bold tracking-[-0.04em] text-gray-900 md:text-3xl">
+              <h3 className="font-['Outfit'] text-2xl font-bold tracking-[-0.04em] text-gray-900 md:text-3xl">
                 R$8k/mês por 1.000 pacientes.
               </h3>
               <p className="mt-4 text-base leading-8 text-gray-600">
@@ -163,7 +193,7 @@ export function Business() {
 
         {/* ICP grid */}
         <div className="mb-6 text-center">
-          <h3 className="font-['Syne'] text-2xl font-bold tracking-[-0.04em] text-gray-900">
+          <h3 className="font-['Outfit'] text-2xl font-bold tracking-[-0.04em] text-gray-900">
             4 ICPs validados por entrevistas.
           </h3>
           <p className="mt-2 text-sm text-gray-400">5 stakeholders entrevistados. Problema confirmado em todos os perfis.</p>
@@ -179,7 +209,9 @@ export function Business() {
               transition={{ delay: i * 0.1, duration: 0.5 }}
               className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow group"
             >
-              <div className="mb-4 text-3xl">{icp.icon}</div>
+              <div className="mb-4 w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: `${icp.accent}18` }}>
+                {ICP_ICONS[icp.icon]?.(icp.accent)}
+              </div>
               <h4 className="mb-2 text-sm font-semibold leading-tight text-gray-900">{icp.title}</h4>
               <p className="text-xs leading-6 text-gray-500">{icp.desc}</p>
               {icp.validated && (

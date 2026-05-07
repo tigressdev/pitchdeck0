@@ -18,7 +18,7 @@ export function Roadmap() {
             <span className="font-mono">07</span>
             Próximos passos
           </div>
-          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl leading-[1.05]">
+          <h2 className="font-['Outfit'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl leading-[1.05]">
             Quatro fases para ir do protótipo<br />
             <span className="text-emerald-600">ao primeiro contrato B2B.</span>
           </h2>
@@ -91,7 +91,7 @@ export function Roadmap() {
               <div className="mb-2 text-xs font-mono uppercase tracking-[0.22em] text-emerald-600">
                 Conclusão · Seção 6 do roteiro
               </div>
-              <h3 className="font-['Syne'] text-2xl font-bold tracking-[-0.03em] text-gray-900 mb-3">
+              <h3 className="font-['Outfit'] text-2xl font-bold tracking-[-0.03em] text-gray-900 mb-3">
                 O VitaCodex não é mais só um app de DNA.<br />
                 É uma camada de inteligência para saúde.
               </h3>
