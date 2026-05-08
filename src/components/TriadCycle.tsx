@@ -403,7 +403,7 @@ export function TriadCycle() {
             <span className="block mt-1 text-emerald-400">DNA → Sync → Alvo → modelo reforçado.</span>
           </h2>
           <p className="mt-5 mx-auto max-w-xl text-base leading-8 text-white/60">
-            Cada semana, o sistema lê novos sinais, cruza com exames laboratoriais, ajusta metas e retroalimenta o modelo genômico. O dado genético não é estático — ele vira contexto contínuo.
+            Cada semana, o sistema lê novos sinais, cruza com exames laboratoriais, ajusta metas e retroalimenta o modelo genômico. O dado genético não é estático : ele vira contexto contínuo.
           </p>
         </div>
 
