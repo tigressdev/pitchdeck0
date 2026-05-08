@@ -5,7 +5,7 @@ const YOUTUBE_ID = '0Hzdh-62PE0';
 const STATS = [
   { value: '33', label: 'SNPs curados' },
   { value: '5', label: 'Stakeholders entrevistados' },
-  { value: '4', label: 'Camadas de engine' },
+  { value: '4', label: 'Camadas de AI engine' },
   { value: '2', label: 'Cenários financeiros' },
 ];
 
