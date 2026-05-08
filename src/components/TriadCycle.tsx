@@ -399,7 +399,7 @@ export function TriadCycle() {
             </svg>
             04 · Produto · O ciclo Vita
           </div>
-          <h2 className="font-['Outfit'] mx-auto max-w-3xl text-4xl font-bold leading-[1.05] tracking-[-0.05em] text-white md:text-5xl">
+          <h2 className="font-['Syne'] mx-auto max-w-3xl text-4xl font-bold leading-[1.05] tracking-[-0.05em] text-white md:text-5xl">
             Um ciclo inteligente que não para.
             <span className="block mt-1 text-emerald-400">DNA → Sync → Alvo → modelo reforçado.</span>
           </h2>
@@ -472,7 +472,7 @@ export function TriadCycle() {
               <div className="mb-2 font-mono text-[10px] uppercase tracking-[0.22em] text-emerald-400">
                 Diferencial de produto
               </div>
-              <h3 className="font-['Outfit'] text-2xl font-bold tracking-[-0.03em] text-white md:text-3xl">
+              <h3 className="font-['Syne'] text-2xl font-bold tracking-[-0.03em] text-white md:text-3xl">
                 "O loop é o produto — não os relatórios."
               </h3>
               <p className="mt-3 text-sm leading-7 text-white/60 max-w-2xl">
