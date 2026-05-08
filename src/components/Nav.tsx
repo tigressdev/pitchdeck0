@@ -43,7 +43,7 @@ export function Nav() {
         </div>
 
         {/* Nav links */}
-        <nav className="hidden items-center gap-5 text-[11px] font-medium uppercase tracking-[0.2em] text-gray-400 lg:flex">
+        <nav className="hidden items-center gap-5 text-[14px] font-medium uppercase tracking-[0.2em] text-gray-400 lg:flex">
           {NAV_LINKS.map(({ href, label }) => (
             <a
               key={href}
