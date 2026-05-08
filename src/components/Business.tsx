@@ -143,8 +143,8 @@ export function Business() {
 
             <div className="space-y-3">
               {[
-                { tier: 'Starter', volume: '500 pacientes/mês', mrr: 'R$4k/mês', accent: '#1D9E75', accentBg: '#f0fdf4', accentBorder: '#bbf7d3' },
-                { tier: 'Clinic', volume: '1.000 pacientes/mês', mrr: 'R$8k/mês', accent: '#3f6df6', accentBg: '#eff6ff', accentBorder: '#bfdbfe' },
+                { tier: 'Starter', volume: '500 pacientes/mês', mrr: 'R$10k/mês', accent: '#1D9E75', accentBg: '#f0fdf4', accentBorder: '#bbf7d3' },
+                { tier: 'Clinic', volume: '1.000 pacientes/mês', mrr: 'R$18k/mês', accent: '#3f6df6', accentBg: '#eff6ff', accentBorder: '#bfdbfe' },
                 { tier: 'Enterprise', volume: 'Volume customizado', mrr: 'Negociado', accent: '#b846ff', accentBg: '#faf5ff', accentBorder: '#e9d5ff' },
               ].map(({ tier, volume, mrr, accent, accentBg, accentBorder }) => (
                 <div
