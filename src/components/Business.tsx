@@ -118,7 +118,7 @@ export function Business() {
                 Modelo de receita · SaaS por paciente processado
               </div>
               <h3 className="font-['Outfit'] text-2xl font-bold tracking-[-0.04em] text-gray-900 md:text-3xl">
-                R$8k/mês por 1.000 pacientes.
+                R$18k/mês por 100 pacientes.
               </h3>
               <p className="mt-4 text-base leading-8 text-gray-600">
                 API-first B2B: integrações com clínicas, operadoras e EMRs pagam pelo volume de interpretações genômicas. Ticket médio validado com compradores potenciais. LTV:CAC ≥ 3 a partir do mês 10.
@@ -143,8 +143,8 @@ export function Business() {
 
             <div className="space-y-3">
               {[
-                { tier: 'Starter', volume: '500 pacientes/mês', mrr: 'R$10k/mês', accent: '#1D9E75', accentBg: '#f0fdf4', accentBorder: '#bbf7d3' },
-                { tier: 'Clinic', volume: '1.000 pacientes/mês', mrr: 'R$18k/mês', accent: '#3f6df6', accentBg: '#eff6ff', accentBorder: '#bfdbfe' },
+                { tier: 'Starter', volume: '50 pacientes/mês', mrr: 'R$10k/mês', accent: '#1D9E75', accentBg: '#f0fdf4', accentBorder: '#bbf7d3' },
+                { tier: 'Clinic', volume: '100 pacientes/mês', mrr: 'R$18k/mês', accent: '#3f6df6', accentBg: '#eff6ff', accentBorder: '#bfdbfe' },
                 { tier: 'Enterprise', volume: 'Volume customizado', mrr: 'Negociado', accent: '#b846ff', accentBg: '#faf5ff', accentBorder: '#e9d5ff' },
               ].map(({ tier, volume, mrr, accent, accentBg, accentBorder }) => (
                 <div
