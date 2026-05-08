@@ -87,11 +87,10 @@ function OrbitSVG({ activeStep }: { activeStep: number }) {
   const nodeSubs = ['Analisa & prevê', 'Valida com labs', 'Define & ajusta'];
 
   const labelProps: Array<{ textAnchor: 'middle' | 'start' | 'end'; dy: number; dx: number }> = [
-    { textAnchor: 'middle', dy: -52, dx: 0 },
-    { textAnchor: 'start', dy: 0, dx: 52 },
-    { textAnchor: 'end', dy: 0, dx: -52 },
-  ];
-
+  { textAnchor: 'middle', dy: -52, dx: 0  },   // DNA — topo, não muda
+  { textAnchor: 'start',  dy: -8,  dx: 44 },   // Clinical Sync — direita
+  { textAnchor: 'end',    dy: -8,  dx: -44 },  // Target — esquerda
+];
   return (
     <svg viewBox="0 0 480 460" className="w-full max-w-[480px] mx-auto" aria-hidden="true">
       <defs>
@@ -399,7 +398,7 @@ export function TriadCycle() {
             </svg>
             04 · Produto · O ciclo Vita
           </div>
-          <h2 className="font-['Syne'] mx-auto max-w-3xl text-4xl font-bold leading-[1.05] tracking-[-0.05em] text-white md:text-5xl">
+          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-white md:text-5xl">
             Um ciclo inteligente que não para.
             <span className="block mt-1 text-emerald-400">DNA → Sync → Alvo → modelo reforçado.</span>
           </h2>
