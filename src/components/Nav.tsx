@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 const NAV_LINKS = [
   { href: '#problema', label: 'Problema' },
   { href: '#validacao', label: 'Validação' },
-  { href: '#demo', label: 'Demo' },
-  { href: '#solucao', label: 'Solução' },
+  { href: '#demo', label: 'Solução' },
+  { href: '#solucao', label: 'Tech Design' },
   { href: '#negocio', label: 'Negócio' },
   { href: '#financeiro', label: 'Financeiro' },
   { href: '#roadmap', label: 'Roadmap' },
