@@ -82,7 +82,7 @@ export function Hero() {
 
           <motion.h1
             variants={itemVariants}
-            className="font-['Outfit'] max-w-2xl text-5xl font-bold leading-[0.92] tracking-[-0.06em] text-gray-900 md:text-7xl"
+            className="font-['Syne'] max-w-2xl text-5xl font-bold leading-[0.92] tracking-[-0.06em] text-gray-900 md:text-7xl"
           >
             Your body<br />runs in code.{' '}
             <span className="text-emerald-600">We help health systems read it.</span>
